@@ -103,7 +103,7 @@ local function set_groups()
 		Constant = { fg = colors.white },
 		String = { fg = colors.green, italic = config.italics.strings or false },
 		Character = { fg = colors.green },
-		Number = { fg = colors.secondary, bold = true },
+		Number = { fg = colors.secondary, bold = config.bold.numbers or false },
 		Boolean = { fg = colors.greenLight },
 		Float = { link = "Number" },
 
@@ -150,7 +150,7 @@ local function set_groups()
 		Italic = { italic = true },
 		Ignore = { fg = colors.bg },
 		Error = { link = "ErrorMsg" },
-		Todo = { fg = colors.orange, bold = true },
+		Todo = { fg = colors.orange, bold = config.bold.todo or false },
 
 		-- LspReferenceText = {},
 		-- LspReferenceRead = {},

@@ -9,6 +9,10 @@ local config = {
 			variables = true,
 			bufferline = false,
 		},
+		bold = {
+			numbers = true,
+			todo = true,
+		},
 		overrides = {},
 		palette_overrides = {},
 	},

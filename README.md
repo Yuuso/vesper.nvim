@@ -42,6 +42,10 @@ require('vesper').setup({
         strings = true, -- Boolean: Italicizes strings
         variables = true, -- Boolean: Italicizes variables
     },
+    bold = {
+        numbers = true, -- Boolean: Bold numbers
+        todo = true, -- Boolean: Bold TODO comments
+    },
     overrides = {}, -- A dictionary of group names, can be a function returning a dictionary or a table.
     palette_overrides = {}
 })
